@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+        <div class="header_div text-center">
+          <h1 id="heading">Sound Controlled Aliens</h1> <br> 
+          <p>Note: Play different sounds like clap, snap, and cow and dog sounds</p> <br> <br>
+      </div>
+      <div class="main_div">
+        <button class="btn btn-warning"id="start" onclick="classification()">Start</button> <br> <br>
+        <h3 id="sound_head">Sound - </h3>
+        <h4 id="accuracy_head">Accuracy - </h4>
+        <img src="https://shravaripatil.github.io/Sound_controlled_animals/listen.gif">
+      </div>
+        <div class="footer">Developed by: Saanvi Nalla</div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>

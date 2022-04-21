@@ -1,0 +1,37 @@
+body {
+    font-family: Georgia;
+    background-color: lightblue;
+}
+
+.header_div {
+background:lightcyan;
+color:darkslateblue;
+}
+
+.header_div p {
+    font-family:'Times New Roman', Times, serif;
+    color:cadetblue;
+    letter-spacing:2px;
+    font-size:12px;
+    font-weight:bold;  
+}
+
+.main_div button {
+    font-family:sans-serif;
+    margin-top:30px;
+    width:130px;
+    font-weight:bolder;
+    letter-spacing:3px;
+}
+
+.footer {
+    position:fixed;
+    color:indigo;
+    bottom:0;
+    width:100%;
+    font-size:18px;
+    background-color: violet;
+    line-height:2;
+    text-align:center;
+    text-shadow: 5px 5px 5px gray;
+}
